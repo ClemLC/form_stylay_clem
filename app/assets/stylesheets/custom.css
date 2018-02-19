@@ -1,7 +1,7 @@
 html{
   background-image: url(delorean.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover
 }
 
 .form{
@@ -14,9 +14,22 @@ html{
   margin-top: 15%;
   margin-right: 25%;
   margin-left: 50%;
-  text-align: left;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.signup{
+  width:100%;
+  height: 10%;
+  position: absolute;
+  background-color: grey;
+  border: 1px grey;
+  border-radius: 0 0 5px 0;
+  bottom: 0px;
+  text-align: center;
   font-family: sans-serif;
-  color: black;
+  color: white;
+  padding-top: 20px;
 }
 
 .welcome{
@@ -34,4 +47,31 @@ html{
   color: white;
   padding-left: 3px;
   padding-right: 5px;
+}
+
+.text{
+  color: white;
+}
+
+.field{
+  font-family: sans-serif;
+  color: black;
+  padding-top: 5px;
+  text-align:center;
+}
+
+.forgot{
+  font-style: italic;
+  color: grey;
+  font-family: sans-serif;
+  bottom: 20px;
+  text-align: center;
+}
+
+.index{
+  font-size: 15px;
+  font-style: italic;
+  font-weight: bold;
+  font-family: sans-serif;
+  color: white;
 }
